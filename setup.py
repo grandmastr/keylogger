@@ -17,7 +17,7 @@ setup(
     long_description=open("README.md").read() if hasattr(__builtins__, 'open') else "",
     long_description_content_type="text/markdown",
     keywords="keylogger, keyboard, input",
-    url="https://github.com/username/keylogger",
+    url="https://github.com/grandmastr/keylogger",
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
