@@ -12,7 +12,7 @@ setup(
         "pynput>=1.7.6",
     ],
     author="grandmastr",
-    author_email="israelakintunde005@gmail.com",
+    author_email="",
     description="A simple keylogger package for recording keyboard inputs",
     long_description=open("README.md").read() if hasattr(__builtins__, 'open') else "",
     long_description_content_type="text/markdown",
