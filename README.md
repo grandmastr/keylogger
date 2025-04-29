@@ -1,6 +1,6 @@
 # Keylogger
 
-A simple Python package for recording keyboard inputs with timestamp tracking and key press counting.
+A simple Python package for recording keyboard inputs.
 
 ## Disclaimer
 
@@ -11,13 +11,13 @@ This package is intended for educational purposes only. Using a keylogger to rec
 You can install the package directly from GitHub:
 
 ```bash
-pip install git+https://github.com/grandmastr/keylogger.git
+pip install git+https://github.com/username/keylogger.git
 ```
 
 Or after cloning the repository:
 
 ```bash
-git clone https://github.com/grandmastr/keylogger.git
+git clone https://github.com/username/keylogger.git
 cd keylogger
 pip install .
 ```
@@ -48,38 +48,17 @@ The package also provides a command-line interface:
 keylogger
 ```
 
-This will start the keylogger with default settings and log to `keylog.txt` in the current directory. Press the Esc key to stop the keylogger when running from the command line.
-
-### Manual Key Logging
-
-You can also manually log keys without capturing keyboard events:
-
-```python
-from keylogger import Keylogger
-
-keylogger = Keylogger(log_file="manual_log.txt")
-keylogger.log_key("Custom event")
-```
+This will start the keylogger with default settings and log to `keylog.txt` in the current directory.
 
 ## Features
 
 - Simple and easy-to-use API
 - Logs keystrokes with timestamps
 - Configurable log file location
-- Tracks daily key press counts in a JSON file
-- Option to stop the keylogger when Esc is pressed
-- Command-line interface for quick usage
-- Error handling for file operations
 
 ## Requirements
 
 - Python 3.6 or higher
-- pynput >= 1.7.6
-
-## Data Files
-
-- **Log File**: Records each keystroke with a timestamp (default: `keylog.txt`)
-- **Key Count File**: Tracks the number of key presses per day in JSON format (`key_count.json`)
 
 ## License
 
